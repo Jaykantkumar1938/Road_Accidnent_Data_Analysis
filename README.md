@@ -1,8 +1,8 @@
-Driving Insights with Power BI: The Road Accident Data Project
+# Driving Insights with Power BI: The Road Accident Data Project
 
 Initiative aimed at analyzing and understanding the alarming rise of road accidents in our modern world. This pioneering endeavor delves into the statistical landscape of traffic incidents, leveraging advanced data analysis techniques to uncover crucial patterns and insights. By examining factors such as location, date, areas, and vehicle types, this project seeks to inform policymakers, transportation authorities, and communities alike, empowering them to implement effective measures and create safer roads for all.
 
-![image](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/89aba8b9-7efe-4c48-98f2-91189eac7247)
+ ![image](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/89aba8b9-7efe-4c48-98f2-91189eac7247)
 
 The dataset utilized in this project was sourced from the reputable Kaggle website. It comprises a practice-oriented demonstration dataset, featuring 21 columns and 307,973 rows. The primary objectives of this project encompass identifying trends, offering valuable insights regarding casualties, and addressing the following key Metrics
 ![image](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/248972a0-dfbe-4ece-ac7f-5972ca604862)
@@ -16,7 +16,7 @@ The data was downloaded and opened in Power Bi below is the data set view
 
 steps i took to Analyze the data 
 
-Data cleaning :
+# Data cleaning 
 promoted headers
 
 checked for data consistency -changed data type ,I checked the data type based on the field name i.e. the “Accident_index” — Text format, “Accident_Date” — Date format, etc.
@@ -30,7 +30,7 @@ I checked further and I noticed another misspelled word in the “Accident_Sever
 
 
 
-Analyzing the Data
+# Analyzing the Data
 After completing the data cleaning process, I proceeded to analyze the data.
 
 The first step in analyzing the data was to create a table that included the calendar dates in reference to the above metrics, including both current and previous year information
@@ -248,7 +248,7 @@ The data presented above indicates that the percentage of casualties during the 
 
 
 
-VISUALIZATION
+# VISUALIZATION
 
 All analysis can be viewed at a glance on the dashboard, providing a comprehensive overview in one place.
 
