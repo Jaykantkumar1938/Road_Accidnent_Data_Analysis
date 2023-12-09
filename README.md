@@ -68,7 +68,7 @@ I proceeded to provide answers and insights for the above metrics.
 
 Total Casualties and Total Accident values for current Year
 
-current Year Casualties (CY)2022
+## (1)Current Year Casualties (CY)2022
 
 
 ![image](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/b7710156-2b1d-464b-9ef8-57541b8328b6)
@@ -76,7 +76,13 @@ current Year Casualties (CY)2022
 
 “TOTALYTD”calculate the year-to-date sum of the ‘Number_of_Casualties’ column from the ‘Data’ table based on the ‘Date’ column in the ‘calendar’ table. The result is the count of casualties for the current year.
 
-![image](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/2d98bbfa-920e-404c-b589-c3c60d4c7d72)
+
+
+
+![Screenshot 2023-12-09 122323](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/6add2de9-1a72-4c45-b6d2-2822ee9ea9c9)
+
+
+
 
 
 The Total casualties recorded for the year 2022 is 196,000.
@@ -91,16 +97,16 @@ The Total casualties recorded for the year 2022 is 196,000.
 
 
 
-![image](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/0ccd9c05-ffad-4846-b928-760ef3a6706a)
+![Screenshot 2023-12-09 115238](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/81a55f3f-94b2-467b-9fd6-0e36c5ee4d48)
 
 
 
 
 Total Accident recorded for 2022 is 144,000
 
-(2) Total Casualties by Accident Severity For Current Year
+# (2) Total Casualties by Accident Severity For Current Year
 
->Fatal
+## Fatal
 
 
 ![image](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/e54024c9-5778-42ad-9a80-9254f177ee3b)
@@ -111,13 +117,16 @@ Total Accident recorded for 2022 is 144,000
 specifying the condition that the ‘Accident_Severity’ column should be equal to “Fatal” to filter the data and obtain the count of fatal casualties based on the previously calculated ‘CY casualties’.
 
 
-![image](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/122bf8e1-c6ed-447e-a27f-dee3835278bd)
+
+
+![Screenshot 2023-12-09 115300](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/014585c5-4902-41a7-a19a-8c4f38b0df77)
+
 
 
 
 Total fatal casualties is 2900
 
-> Slight
+## Slight
 
 
 ![image](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/e0f6e438-c45d-48be-bd13-93d2d7eb4bd8)
@@ -128,26 +137,30 @@ specifying the condition that the ‘Accident_Severity’ column should be equal
 
 
 
-![image](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/08c10526-4a25-468a-9b37-135714df25bf)
+![Screenshot 2023-12-09 115355](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/330ba8bb-499d-49e3-b438-af1f9f37f5ea)
+
 
 
 
 slight casualties is 166,000
 
->Serious
-
-
-![image](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/1a765b06-dd47-4a7f-a8c9-037e7af44460)
+## Serious
 
 
 
-![image](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/19175363-58a1-42fb-8b8b-30676164df5d)
+
+
+
+
+
+![Screenshot 2023-12-09 115324](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/6f5df52c-ad1a-4748-96e2-7a162a4ba473)
+
 
 
 
 Serious casualties is 27,000
 
-(3) Total Casualties with respect to Vehicle Type for current Year
+## (3) Total Casualties with respect to Vehicle Type for current Year
 
 In order to analyze casualties by vehicle type, I grouped certain categories together. For the ‘Cars’ category, I combined ‘Car’ and ‘Taxi/Private hire car’ into a single group. Similarly, for the ‘Bus’ category, I merged ‘Bus or coach (17 or more pass seats)’ with ‘Minibus (8–16 passenger seats)’.
 
@@ -176,7 +189,7 @@ Finally, the ‘Agricultural vehicle’ category remained unchanged.”
 
 In the current year(2022), the casualties by vehicle type were as follows: Agricultural Vehicles accounted for 399, Bikes accounted for 15,610, Buses accounted for 6,573, Cars accounted for 155,804, Others accounted for 1,446, and Vans accounted for 15,905.
 
-(4)Monthly Trend Showing Comparison of casualties for Current Year and Previous Year
+# (4)Monthly Trend Showing Comparison of casualties for Current Year and Previous Year
 
 “To obtain the casualties for the previous year (2021), I employed the formula ‘CALCULATE(SUM(Data[Number_of_Casualties]), SAMEPERIODLASTYEAR(calendar[Date].[Date]))’.”
 
@@ -192,7 +205,7 @@ In the current year(2022), the casualties by vehicle type were as follows: Agric
 
 
 
-The table below presents insights on the monthly trend.
+# The table below presents insights on the monthly trend.
 
 
 
@@ -202,7 +215,7 @@ The table below presents insights on the monthly trend.
 
 From the table, it is observed that there was an increase in the number of casualties only in the month of February for both the previous year (PY) and the current year (CY). In conclusion, the total number of casualties decreased in 2022.
 
-Casualties By Road Type for Current Year
+# Casualties By Road Type for Current Year
 
 
 ![image](https://github.com/Jaykantkumar1938/Road_Accidnent_Data_Analysis/assets/132810111/b7ab1ac7-e2b9-4cf0-848d-11e3f10ecc24)
@@ -211,7 +224,7 @@ Casualties By Road Type for Current Year
 
 single carriageways had the highest count of road casualties in the year 2022, specifically amounting to 145k
 
-percentage of Current Year Casualties By Area
+# Percentage of Current Year Casualties By Area
 
 
 
@@ -222,7 +235,7 @@ percentage of Current Year Casualties By Area
 
 The above data shows that the Percentage of casualties in the urban area are more than the casualties in the rural area.
 
-Percentage of Current Year Casualties by Day /Night
+# Percentage of Current Year Casualties by Day /Night
 
 I observed that there were four different descriptions for the darkness/light condition. To simplify the analysis, I decided to group them into a single category called “Night” using a calculated item. This adjustment allows us to have two distinct categories for the light conditions: Day and Night.
 
